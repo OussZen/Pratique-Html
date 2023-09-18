@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+    <title>Zenbook</title> 
+
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            place-items: center;
+
+        }
+        .box{
+            height: 500px;
+            width: 550px;
+            background-color: white;
+            border-radius: 2%;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+        }
+        .input-box{
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+
+    </style>
+
+</head> 
+
+<body bgcolor= "#0085a8"> 
+<p><font face="arial"> 
+
+<div class="container"> 
+    <div class="box">
+        <center> <DIV class="login-box">
+
+            <form action="">
+                <h2 style="color : #555454;">Login</h2>
+
+                <div class="input-box" Align=Left>
+                <label for="email">Email:</label>
+                <span class="icon"></span>
+                <div>
+                <input type="Email" id="email" name="email" placeholder="Enter email" style="padding: 18px; width: 410px;"  required>      
+                </div>        
+                </div>
+
+                <div class="input-box" Align=Left>
+                <label for="password">Password:</label>
+                <span class="icon"></span>
+                <div>                 
+                <input type="Password" id="Password" name="Password" placeholder="Enter password" style="padding: 18px; width: 410px;" required>
+                </div> 
+                </div>  
+            </form>
+
+            <div class="Show Password" Align=left>
+                <label><input type="checkbox">Show Password</label><br></br>
+            </div>
+
+                <button type="submit" onclick="alert" style="background-color:#007398; width: 410px; padding: 10px;"><p style="color:aliceblue;">SIGN IN</p></button>
+            
+            <div class="remember-forgot">
+                <p>Forgot <a href="#">Username / Password</a></p>
+            </div>
+
+            <div class="remember-forgot">
+                <p>Don't have an account?<a href="#">Sign up</a></p>
+            </div>
+
+        </DIV></center>
+        </div>      
+</div>
+
+</font></p>
+</body>
+
+</html>
